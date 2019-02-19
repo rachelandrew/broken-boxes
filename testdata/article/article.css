@@ -1,5 +1,9 @@
 body {
-    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    padding: 1em;
+    margin: 2em;
+    border: 5px solid #333;
+    box-decoration-break: clone;
 }
 
 ul {
