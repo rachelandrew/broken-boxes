@@ -1,5 +1,6 @@
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+    font-size: 12pt;
     padding: 1em;
     margin: 2em;
     border: 5px solid #333;
@@ -10,3 +11,20 @@ ul {
     break-inside: avoid;
 }
 
+.columns {
+    column-count: 2;
+    border-bottom: 1px solid #666;
+    padding-bottom: 12pt;
+    margin-bottom: 24pt;
+}
+
+.spanner {
+    column-span: all;
+    border-bottom: 1px solid #666;
+    padding: 6pt 0;
+}
+
+.columns h3 {
+    break-before: avoid-column;
+    break-after: avoid-column;
+}
